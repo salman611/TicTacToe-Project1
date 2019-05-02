@@ -1,16 +1,10 @@
 # ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
 
-# Project #1: The Game
+# Project #1: Tic Tac Toe
 
 ## Overview:
 
 Let's start out with something fun - **a game!**
-
-You have two options:
-
-**Option A:  make Tic Tac Toe (XO)**
-
-**Option B:  make any game you want!**
 
 
 **You will be working individually for this project**, but we are here to support you and you are here to support each other. Show us what you've got!
@@ -44,8 +38,6 @@ By the time you submit this project, you will have covered new ground in, and re
 
 ## Technical Requirements
 
-## Option A:  Tic Tac Toe:
-
 Your Tic Tac Toe app must:
 - **Render a game board in the browser**
 - **Switch turns** between X and O (or whichever markers you select)
@@ -77,10 +69,6 @@ Your Tic Tac Toe app must:
 - Create an AI opponent: teach JavaScript to play an unbeatable game against you
 - Make your site fully responsive so that it is playable from a mobile phone
 - Get inventive with your styling e.g. use hover effects or animations
-
-## Option B:  Any game you want!
-If you are feeling creative and want to try something new, then go for it!  In order to go this route you must run your idea by Michael first who will create requirements based on your game idea.
-- your proposal must include: a summary of your idea, a wire frame ([this](https://wireframe.cc/) is a good site to make wireframnes), what you think the biggest challenges will be.
 
 ## Necessary Deliverables
 * Projects are due Wednesday, 9/5 at midnight!  You will submit your work in the morning at the start of class * 
