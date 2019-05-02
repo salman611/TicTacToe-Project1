@@ -119,7 +119,7 @@ If you are feeling creative and want to try something new, then go for it!  In o
 6.  Write the pseudocode for the Tic Tac Toe logic as comments in your JS file
 7.  Choose the correct data type for how your Tic Tac Toe board should be represented in JS
 8.  Add jQuery to your HTML file
-9.  Begin working on the major user stories, 1 at a time
+9.  Begin working on the [user stories](https://github.com/wdi-red-coral/project-1-prompt/blob/master/README.md#user-stories), 1 at a time
 10.  Deploy your application to github pages
 ---
 
