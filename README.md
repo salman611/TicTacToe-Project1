@@ -62,6 +62,7 @@ Your Tic Tac Toe app must:
 
 - As a user, I should be able to start a new tic tac toe game
 - As a user, I should be able to click on a square to add X first and then O, and so on
+- As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next
 - As a user, I should not be able to click the same square twice
 - As a user, I should be shown a message when I win, lose or tie
 - As a user, I should not be able to continue playing once I win, lose, or tie
@@ -80,30 +81,6 @@ Your Tic Tac Toe app must:
 ## Option B:  Any game you want!
 If you are feeling creative and want to try something new, then go for it!  In order to go this route you must run your idea by Michael first who will create requirements based on your game idea.
 - your proposal must include: a summary of your idea, a wire frame ([this](https://wireframe.cc/) is a good site to make wireframnes), what you think the biggest challenges will be.
-
-Need some ideas?  Keep reading!
-
-### Other Game Ideas
-
-### Beginner
-
-- Simon
-- War - Two Player
-- Self-scoring Trivia
-
-### Medium
-
-- Text Adventure
-- Connect 4 - Two Players or AI
-- Checkers - Two Players or AI
-- Yahtzee - Two Players
-
-### Advanced
-
-- Battleship - Two Players
-- Chess - Two Players or AI
-
----
 
 ## Necessary Deliverables
 * Projects are due Wednesday, 9/5 at midnight!  You will submit your work in the morning at the start of class * 
@@ -143,13 +120,6 @@ Need some ideas?  Keep reading!
 7.  Choose the correct data type for how your Tic Tac Toe board should be represented in JS
 8.  Add jQuery to your HTML file
 9.  Begin working on the major user stories, 1 at a time
-- As a user, I should be able to start a new tic tac toe game
-- As a user, I should be able to click on a square to add X first and then O, and so on
-- As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next
-- As a user, I should not be able to click the same square twice
-- As a user, I should be shown a message when I win, lose or tie
-- As a user, I should not be able to continue playing once I win, lose, or tie
-- As a user, I should be able to play the game again without refreshing the page
 10.  Deploy your application to github pages
 ---
 
