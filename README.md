@@ -70,6 +70,15 @@ Your Tic Tac Toe app must:
 - Make your site fully responsive so that it is playable from a mobile phone
 - Get inventive with your styling e.g. use hover effects or animations
 
+## README Suggestions
+
+- List technologies used
+- Link to wireframes and user stories.
+- Document your planning and tell a story about your development process and problem-solving strategy.
+- List unsolved problems which would be fixed in future iterations.
+- Describe how you solved for the winner
+- Describe how some of your favorite functions work
+
 ## Necessary Deliverables
 * Projects are due Wednesday, 9/5 at midnight!  You will submit your work in the morning at the start of class * 
 
