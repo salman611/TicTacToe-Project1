@@ -19,7 +19,7 @@ By the time you submit this project, you will have covered new ground in, and re
 - **Source Control**: Manage and interact with a git repository to store changes to code.
 - **Programming Fundamentals**: Work with objects, arrays, events, while learning how to strategically solve problems and resolve errors.
 - **Web Fundamentals**: Learn how to use HTML, CSS, and JS to build interactive web pages. Also learn how to respond to actions your users take and the data they input into the browser.
-- **Browser Applications**: Dive into javascript, and figure out how to use libraries and frameworks to get lots of style and functionality for free.
+- **Browser Applications**: Dive into JavaScript, and figure out how to use libraries and frameworks to get lots of style and functionality for free.
 - **Deployment**: Host a static web site in a managed hosting environment.
 - **Products and Teams**: Document your code and your code repository so others understand what you've built.
 
@@ -44,7 +44,7 @@ Your Tic Tac Toe app must:
 - **Visually display which side won** if a player gets three in a row, or show a draw if neither player wins
 - **Include separate HTML / CSS / JavaScript files**
 - Stick with **KISS (Keep It Simple Stupid)** and **DRY (Don't Repeat Yourself)** principles
-- Use **JavaScript and jQuery** for **DOM manipulation**
+- Use **JavaScript and/or jQuery** for **DOM manipulation**
 - **Deploy your game online**, where the rest of the world can access it
   - We will be walking you through this process!
 - Use **semantic markup** for HTML and CSS (adhere to best practices)
@@ -115,7 +115,7 @@ Your Tic Tac Toe app must:
 5.  Build the most basic version of your Tic Tac Toe board in HTML and CSS (very little styling, just a first version)
 6.  Write the pseudocode for the Tic Tac Toe logic as comments in your JS file
 7.  Choose the correct data type for how your Tic Tac Toe board should be represented in JS
-8.  Add jQuery to your HTML file
+8.  Add jQuery to your HTML file if you would like to use it instead of vanilla JavScript.
 9.  Begin working on the [user stories](https://github.com/wdi-red-coral/project-1-prompt/blob/master/README.md#user-stories), 1 at a time
 10.  Deploy your application to github pages
 ---
