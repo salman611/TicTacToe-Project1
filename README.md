@@ -80,7 +80,7 @@ Your Tic Tac Toe app must:
 - Describe how some of your favorite functions work
 
 ## Necessary Deliverables
-* Projects are due Wednesday, 3/7 at midnight! You will submit your work in the morning at the start of class.
+* Projects are due Thursday, 7/4 at 9am!
 
 - A **working game, built by you**, hosted somewhere on the internet
 - A **link to your hosted working game** in the URL section of your Github repository
