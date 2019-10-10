@@ -64,11 +64,15 @@ Your Tic Tac Toe app must:
 
 - Keep track of multiple game rounds with a win, lose and tie counter
 - Allow players to customize their tokens (X, O, name, picture, etc)
-- Use LocalStorage to persist data locally to allow games to continue after page refresh or loss of internet connectivity
+- Use [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to persist data locally to allow games to continue after page refresh or loss of internet connectivity
 - Involve Audio in your game
 - Create an AI opponent: teach JavaScript to play an unbeatable game against you
 - Make your site fully responsive so that it is playable from a mobile phone
 - Get inventive with your styling e.g. use hover effects or animations
+
+#### Super Potential Extra Tic Tac Toe Features
+
+- Allow 2 players to play online with each other using any means such as WebSockets, Firebase, or other 3rd-party services.
 
 ## README Suggestions
 
@@ -80,7 +84,7 @@ Your Tic Tac Toe app must:
 - Describe how some of your favorite functions work
 
 ## Necessary Deliverables
-* Projects are due Thursday, 7/4 at 9am!
+* Projects are due on Thursday, Oct 17 at 9 AM!
 
 - A **working game, built by you**, hosted somewhere on the internet
 - A **link to your hosted working game** in the URL section of your Github repository
@@ -116,8 +120,8 @@ Your Tic Tac Toe app must:
 6.  Write the pseudocode for the Tic Tac Toe logic as comments in your JS file
 7.  Choose the correct data type for how your Tic Tac Toe board should be represented in JS
 8.  Add jQuery to your HTML file if you would like to use it instead of vanilla JavScript.
-9.  Begin working on the [user stories](https://github.com/wdi-red-coral/project-1-prompt/blob/master/README.md#user-stories), 1 at a time
-10.  Deploy your application to github pages
+9.  Begin working on the [user stories](https://github.com/sei-relativity/project-1-prompt/blob/master/README.md#user-stories), 1 at a time
+10.  Deploy your application to GitHub pages
 ---
 
 ## Useful Resources
