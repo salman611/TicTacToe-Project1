@@ -84,7 +84,7 @@ Your Tic Tac Toe app must:
 - Describe how some of your favorite functions work
 
 ## Necessary Deliverables
-* Projects are due on Thursday, Oct 17 at 9 AM!
+* Projects are due on Thursday, Feb 6 at 9 AM!
 
 - A **working game, built by you**, hosted somewhere on the internet
 - A **link to your hosted working game** in the URL section of your Github repository
@@ -96,7 +96,7 @@ Your Tic Tac Toe app must:
   - What features did you include?
     - Make sure to explain anything "new" (things that we didn't cover in class)
   - What was the most difficult part of the project?
-  - What was your favourite part to work on?
+  - What was your favorite part to work on?
   - What would you like to add next?
   - Demo of the game
 
@@ -120,7 +120,7 @@ Your Tic Tac Toe app must:
 6.  Write the pseudocode for the Tic Tac Toe logic as comments in your JS file
 7.  Choose the correct data type for how your Tic Tac Toe board should be represented in JS
 8.  Add jQuery to your HTML file if you would like to use it instead of vanilla JavScript.
-9.  Begin working on the [user stories](https://github.com/sei-relativity/project-1-prompt/blob/master/README.md#user-stories), 1 at a time
+9.  Begin working on the [user stories](https://github.com/sei-entropy/lesson-w02d05-wireframes#what-is-a-user-story), 1 at a time
 10.  Deploy your application to GitHub pages
 ---
 
