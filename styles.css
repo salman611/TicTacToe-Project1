@@ -1,0 +1,45 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+        color:
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+  
+
+}  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: solid black;
+    margin: 1px;
+    display: inline-block;
+    transition: 0.5s all;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+   
+  }
+  .cell:hover{
+      background-color: beige;
+  }
+  .restart {
+      padding: 20px; 
+      margin: auto;
+      display: block;
+      margin-top: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+    
