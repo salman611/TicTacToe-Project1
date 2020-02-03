@@ -2,6 +2,14 @@ body{
     background-color: whitesmoke;
 }
 
+#message{
+    text-align: center;
+   margin-right: 500px;
+    display: block;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
 h1{
     text-align: center;
         color:
@@ -14,7 +22,7 @@ h1{
     text-align: center;
     justify-content: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
   
 
 }  
@@ -31,9 +39,9 @@ h1{
    
   }
   .cell:hover{
-      background-color: beige;
+      background-color: lightblue;
   }
-  .restart {
+  #restart {
       padding: 20px; 
       margin: auto;
       display: block;
