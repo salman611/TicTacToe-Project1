@@ -13,12 +13,10 @@ body {
 
 h1 {
     text-align: center;
-   background-color:;
-   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
 
 }
 
@@ -40,10 +38,12 @@ h1 {
     border: solid black;
     margin: 1px;
     display: inline-block;
-    transition: 0.5s all;
-    text-align: center;
     font-size: 100px;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
 
 }
 
@@ -57,4 +57,39 @@ h1 {
     display: block;
     margin-top: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#restart span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#restart span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#restart:hover span {
+    padding-right: 25px;
+}
+
+#restart:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        /* position: fixed;  */
+        /* display: block; */
+    }
 }
