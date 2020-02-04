@@ -1,18 +1,25 @@
-body{
+body {
     background-color: whitesmoke;
 }
 
-#message{
+#message {
     text-align: center;
-   margin-right: 500px;
+    margin-right: 500px;
     display: block;
     margin-top: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
 }
-h1{
+
+h1 {
     text-align: center;
-        color:
+   background-color:;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+
 }
 
 .container {
@@ -23,10 +30,11 @@ h1{
     justify-content: center;
     margin: auto;
     margin-top: 20px;
-  
 
-}  
-  .cell {
+
+}
+
+.cell {
     width: 100px;
     height: 100px;
     border: solid black;
@@ -36,18 +44,17 @@ h1{
     text-align: center;
     font-size: 100px;
     font-family: sans-serif;
-   
-  }
-  .cell:hover{
-      background-color: lightblue;
-  }
-  #restart {
-      padding: 20px; 
-      margin: auto;
-      display: block;
-      margin-top: 20px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
 
+}
 
-    
+.cell:hover {
+    background-color: lightblue;
+}
+
+#restart {
+    padding: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

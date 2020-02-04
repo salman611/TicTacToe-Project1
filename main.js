@@ -1,5 +1,5 @@
 let playerTurn = "X";
-count= 0;
+let count = 0;
 
 
 
@@ -20,50 +20,62 @@ function winner() {
     //X
     if (eachCell[0].innerText === "X" && eachCell[1].innerText === "X" && eachCell[2].innerText === "X") {
         message.innerText = ("X wins");
+        endGame();
     } else if (eachCell[3].innerText === "X" && eachCell[4].innerText === "X" && eachCell[5].innerText === "X") {
         message.innerText = ("X wins");
+        endGame();
     } else if (eachCell[6].innerText === "X" && eachCell[7].innerText === "X" && eachCell[8].innerText === "X") {
         message.innerText = ("X wins");
+        endGame();
     } else if (eachCell[0].innerText === "X" && eachCell[3].innerText === "X" && eachCell[6].innerText === "X") {
         message.innerText = ("X wins");
-    }
-    if (eachCell[1].innerText === "X" && eachCell[4].innerText === "X" && eachCell[7].innerText === "X") {
+        endGame();
+    } else if (eachCell[1].innerText === "X" && eachCell[4].innerText === "X" && eachCell[7].innerText === "X") {
         message.innerText = ("X wins");
+        endGame();
     } else if (eachCell[2].innerText === "X" && eachCell[5].innerText === "X" && eachCell[8].innerText === "X") {
         message.innerText = ("X wins");
+        endGame();
     } else if (eachCell[0].innerText === "X" && eachCell[4].innerText === "X" && eachCell[8].innerText === "X") {
         message.innerText = ("X wins");
+        endGame();
     } else if (eachCell[6].innerText === "X" && eachCell[4].innerText === "X" && eachCell[2].innerText === "X") {
         message.innerText = ("X wins");
+        endGame();
     }
 
     //O
-    if (eachCell[0].innerText === "O" && eachCell[1].innerText === "O" && eachCell[2].innerText === "O") {
+    else if (eachCell[0].innerText === "O" && eachCell[1].innerText === "O" && eachCell[2].innerText === "O") {
         message.innerText = ("O wins");
+        endGame();
     } else if (eachCell[3].innerText === "O" && eachCell[4].innerText === "O" && eachCell[5].innerText === "O") {
         message.innerText = ("O wins");
+        endGame();
     } else if (eachCell[6].innerText === "O" && eachCell[7].innerText === "O" && eachCell[8].innerText === "O") {
         message.innerText = ("O wins");
+        endGame();
     } else if (eachCell[0].innerText === "O" && eachCell[3].innerText === "O" && eachCell[6].innerText === "O") {
         message.innerText = ("O wins");
-    }
-    if (eachCell[1].innerText === "O" && eachCell[4].innerText === "O" && eachCell[7].innerText === "O") {
+        endGame();
+    } else if (eachCell[1].innerText === "O" && eachCell[4].innerText === "O" && eachCell[7].innerText === "O") {
         message.innerText = ("O wins");
+        endGame();
     } else if (eachCell[2].innerText === "O" && eachCell[5].innerText === "O" && eachCell[8].innerText === "O") {
         message.innerText = ("O wins");
+        endGame();
     } else if (eachCell[0].innerText === "O" && eachCell[4].innerText === "O" && eachCell[8].innerText === "O") {
         message.innerText = ("O wins");
+        endGame();
     } else if (eachCell[6].innerText === "O" && eachCell[4].innerText === "O" && eachCell[2].innerText === "O") {
         message.innerText = ("O wins");
+        endGame();
+    } else {
+        if (count === 9) {
+            message.innerText = "It's a tie, try again!";
+        }
     }
 }
-    //else {
-     //   message.innerText = ("It's a tie");
- /////}
 
-
-const message = document.getElementById("message")
-"Choose Your Move", "Type X or O"
 
 const eachCell = document.querySelectorAll(".cell");
 
@@ -71,12 +83,13 @@ function startPlaying() {
 
     console.log("clicked");
     this.innerText = playerTurn;
+    count++;
     switchPlayer();
     winner();
 
     this.removeEventListener("click", startPlaying);
 }
-   
+
 
 for (let i = 0; i < eachCell.length; i++) {
     eachCell[i].addEventListener("click", startPlaying);
@@ -100,8 +113,16 @@ function restartGame() {
         eachCell[i].addEventListener("click", startPlaying);
         message.innerText = 'Start playing with X!';
         playerTurn = "X";
-
+        count = 0
     }
 }
 
 document.querySelector("#restart").addEventListener("click", restartGame);
+
+function endGame() {
+    console.log("end game function")
+    for (let i = 0; i < eachCell.length; i++) {
+        eachCell[i].removeEventListener("click", startPlaying);
+
+    }
+}
