@@ -1,5 +1,6 @@
 body {
     background-color: whitesmoke;
+
 }
 
 #message {
@@ -16,7 +17,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100px;
+    height: 50px;
 
 }
 
@@ -86,10 +87,7 @@ h1 {
     right: 0;
 }
 
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 320px) {
 
-    .container {
-        /* position: fixed;  */
-        /* display: block; */
-    }
-}
+    body {
+        font-size: 2em;

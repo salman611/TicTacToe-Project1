@@ -34,8 +34,8 @@ The project about building a tic tac toe game from scratch. the project includes
 - As a user, I should be able to play the game again without refreshing the page
 
 ## Development Process
-First the program starts with HTML to put the foundation for the game. Then, CSS to draw the grid that the players work on. The program uses Vanilla Javascript and declare some functions ( winner functin to determine winner by using if statment, start the game, switch players, restart the game, and end game), also uses Dom to manipulate JS. 
+First the program starts with HTML to put the foundation for the game. Then, CSS to draw the grid that the players play on. The program uses Vanilla Javascript and declare some functions ( winner function to determine winner by using if statement, start the game, switch players, restart the game, and end game), also uses Dom to manipulate JS. 
 
 
  ## Winner determination
-To win the game, the winner needs to align 3 X's or O's in a row, in a column, or diagonally. The program has 9 different division tags set in a grid 3x3. The program uses if statment to determine if the value of each div = X or O, and then, if 3 (X's) or 3 (O's) align in a row, in a column, or diagonally, a player wins.
+To win the game, the winner needs to align 3 X's or O's in a row, in a column, or diagonally. The program has 9 different division tags set in a grid 3x3. The program uses if statement to determine if the value of each div = X or O. If 3 (X's) or 3 (O's) align in a row, in a column, or diagonally, a player wins.

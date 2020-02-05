@@ -17,62 +17,79 @@ const winningLogic = [
     [6, 4, 2],
 ];
 
-// Use if statment to detemine the winner and use the innerText to determine the value of each div
-// excute the function endGame to remove event listner from each cell after if there is a winner
+// Use if statement to detemine the winner and use the innerText to determine the value of each div
 function winner() {
 
     //X
     if (eachCell[0].innerText === "X" && eachCell[1].innerText === "X" && eachCell[2].innerText === "X") {
         message.innerText = ("X wins");
+        // excute the function endGame to remove event listner from each cell after if there is a winner
         endGame();
+        // play sound effect whem there is a winner
+        document.getElementById("click2").play();
     } else if (eachCell[3].innerText === "X" && eachCell[4].innerText === "X" && eachCell[5].innerText === "X") {
         message.innerText = ("X wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[6].innerText === "X" && eachCell[7].innerText === "X" && eachCell[8].innerText === "X") {
         message.innerText = ("X wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[0].innerText === "X" && eachCell[3].innerText === "X" && eachCell[6].innerText === "X") {
         message.innerText = ("X wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[1].innerText === "X" && eachCell[4].innerText === "X" && eachCell[7].innerText === "X") {
         message.innerText = ("X wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[2].innerText === "X" && eachCell[5].innerText === "X" && eachCell[8].innerText === "X") {
         message.innerText = ("X wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[0].innerText === "X" && eachCell[4].innerText === "X" && eachCell[8].innerText === "X") {
         message.innerText = ("X wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[6].innerText === "X" && eachCell[4].innerText === "X" && eachCell[2].innerText === "X") {
         message.innerText = ("X wins");
         endGame();
+        document.getElementById("click2").play();
     }
 
     //O
     else if (eachCell[0].innerText === "O" && eachCell[1].innerText === "O" && eachCell[2].innerText === "O") {
         message.innerText = ("O wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[3].innerText === "O" && eachCell[4].innerText === "O" && eachCell[5].innerText === "O") {
         message.innerText = ("O wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[6].innerText === "O" && eachCell[7].innerText === "O" && eachCell[8].innerText === "O") {
         message.innerText = ("O wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[0].innerText === "O" && eachCell[3].innerText === "O" && eachCell[6].innerText === "O") {
         message.innerText = ("O wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[1].innerText === "O" && eachCell[4].innerText === "O" && eachCell[7].innerText === "O") {
         message.innerText = ("O wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[2].innerText === "O" && eachCell[5].innerText === "O" && eachCell[8].innerText === "O") {
         message.innerText = ("O wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[0].innerText === "O" && eachCell[4].innerText === "O" && eachCell[8].innerText === "O") {
         message.innerText = ("O wins");
         endGame();
+        document.getElementById("click2").play();
     } else if (eachCell[6].innerText === "O" && eachCell[4].innerText === "O" && eachCell[2].innerText === "O") {
         message.innerText = ("O wins");
         endGame();
+        document.getElementById("click2").play();
         // if the count =9 it means all cells are full and no winner
     } else {
         if (count === 9) {
@@ -93,10 +110,11 @@ function startPlaying() {
 
     console.log("clicked");
     this.innerText = playerTurn;
+     // play sound effect when the players click 
+    document.getElementById("click").play();
     count++;
     switchPlayer();
     winner();
-
     this.removeEventListener("click", startPlaying);
 }
 
@@ -123,6 +141,8 @@ reset the massage to the initial massage, and reset the count to ZERO.
 
 function restartGame() {
     console.log("restart");
+     // play sound effect when click on start over button 
+    document.getElementById("click").play();
     for (let i = 0; i < eachCell.length; i++) {
         eachCell[i].innerText = "";
         eachCell[i].addEventListener("click", startPlaying);
