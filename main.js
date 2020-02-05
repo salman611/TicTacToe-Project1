@@ -110,7 +110,7 @@ function startPlaying() {
 
     console.log("clicked");
     this.innerText = playerTurn;
-     // play sound effect when the players click 
+    // play sound effect when the players click 
     document.getElementById("click").play();
     count++;
     switchPlayer();
@@ -141,7 +141,7 @@ reset the massage to the initial massage, and reset the count to ZERO.
 
 function restartGame() {
     console.log("restart");
-     // play sound effect when click on start over button 
+    // play sound effect when click on start over button 
     document.getElementById("click").play();
     for (let i = 0; i < eachCell.length; i++) {
         eachCell[i].innerText = "";

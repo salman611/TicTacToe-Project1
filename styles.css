@@ -87,7 +87,46 @@ h1 {
     right: 0;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
 
     body {
+
+        width: 100%;
         font-size: 2em;
+        background-color: whitesmoke;
+        text-align: center;
+        position: absolute;
+
+    }
+
+    body h1 {
+        font-size: 1em;
+
+
+    }
+
+    .container {
+        width: 100%;
+        background-color: tomato;
+        margin: 0;
+        padding: 1%;
+        position: static;
+    }
+
+    #cell {
+
+        width: 5%;
+        text-align: center;
+
+
+    }
+
+    #message {
+
+        margin: auto;
+        font-size: 0.5em;
+        text-align: center;
+        display: inline;
+        background-color: palevioletred;
+    }
+}
